@@ -24,12 +24,16 @@ const SuperHeader = () => {
 
 const Wrapper = styled.div`
   font-size: 0.875rem;
+  display: flex;
+  gap: 20px;
+  padding: 15px 20px;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
 `;
 
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
+  margin-right: auto;
 `;
 
 const HelpLink = styled.a`
